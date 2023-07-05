@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EB35MAGyLoMBOJE0L5uEdXkn9Po/TyPCmqDfJCNCICWNi4BJHLYO61Fm3sM6N5SFcvUrbh0gwxPNLMtPnWLj2w==",
+  "dgSpecHash": "AHrVheXJ1cNYpuGThJNBjUQBYXd/DKACTx76zhSjyEzD6WAJVlvsQ83TiO9UbCsLvfyHo2S2iSmN4OVKVAvDBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Manh Lam\\Desktop\\Semeter 8\\PRN231\\FastFood\\BusinessObject\\BusinessObject.csproj",
+  "projectFilePath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Manh Lam\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Manh Lam\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

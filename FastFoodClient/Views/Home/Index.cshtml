@@ -1,4 +1,6 @@
-﻿@{
+﻿@using BusinessObject.Models;
+@model IEnumerable<BusinessObject.Models.Food>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -87,6 +89,7 @@
 
 
         <!-- end header section -->
+
         <!-- slider section -->
 
         <section class="slider_section ">
@@ -159,6 +162,66 @@
         </section>
         <!-- end slider section -->
     </div>
+    <section class="food_section layout_padding-bottom">
+        <div class="container">
+            <div class="heading_container heading_center  text-center heading-section ftco-animate">
+                <span class="subheading">Specialties</span>
+                <strong style="font-size: 240%">Our Menu</strong>
+            </div>
+
+            <!--            <ul class="filters_menu">
+                            <li class="active" data-filter="*">All</li>
+                            <li data-filter=".burger">Burger</li>
+                            <li data-filter=".pizza">Pizza</li>
+                            <li data-filter=".pasta">Pasta</li>
+                            <li data-filter=".fries">Fries</li>
+                        </ul>-->
+
+
+            <div class="filters-content">
+                <div class="row grid ftco-animate">
+                    @foreach (Food item in @ViewBag.listFoods)
+                    {
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+
+                                <div>
+                                    <div class="img-box">
+                                        <a >
+                                            <img style="background: #f1f2f3" src="@Html.DisplayFor(model => item.Image)" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5 style="color: white">
+                                            @Html.DisplayFor(model => item.FoodName)
+                                        </h5>
+                                        <p style="min-height: 80px">
+                                            @Html.DisplayFor(model => item.Description)
+                                        </p>
+                                        <div class="options">
+                                            <h6 style="font-size: 20px">
+                                                @Html.DisplayFor(model => item.UnitPrice)
+                                            </h6>
+                                            <!-- add to cart o day -->
+                                            <a href="add-to-cart?foodid=${f.foodid}" style="background-color: #ffdf9a">
+                                                <i style="color: black " class="bi bi-cart2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                  
+                    <div class="btn-box">
+                        <a href="menu" style="text-decoration: none">
+                            View Menu
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- blog section -->
     <section class="ftco-section bg-light">
         <div class="container">

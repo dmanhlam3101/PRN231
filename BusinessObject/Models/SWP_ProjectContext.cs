@@ -30,11 +30,11 @@ namespace BusinessObject.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-                IConfigurationRoot configuration = builder.Build();
+                var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
+               .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                IConfiguration configuration = builder.Build();
                 optionsBuilder.UseSqlServer(configuration.GetConnectionString("DB"));
+               // optionsBuilder.UseSqlServer("server=localhost;database=SWP_Project;uid=sa;pwd=123;TrustServerCertificate=True");
             }
         }
 

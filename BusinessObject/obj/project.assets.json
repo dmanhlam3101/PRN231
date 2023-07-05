@@ -2411,11 +2411,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manh Lam\\Desktop\\Semeter 8\\PRN231\\FastFood\\BusinessObject\\BusinessObject.csproj",
+      "projectUniqueName": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj",
       "projectName": "BusinessObject",
-      "projectPath": "C:\\Users\\Manh Lam\\Desktop\\Semeter 8\\PRN231\\FastFood\\BusinessObject\\BusinessObject.csproj",
+      "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj",
       "packagesPath": "C:\\Users\\Manh Lam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manh Lam\\Desktop\\Semeter 8\\PRN231\\FastFood\\BusinessObject\\obj\\",
+      "outputPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Manh Lam\\AppData\\Roaming\\NuGet\\NuGet.Config",
