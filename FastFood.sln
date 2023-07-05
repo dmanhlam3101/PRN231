@@ -5,13 +5,13 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodClient", "FastFoodClient\FastFoodClient.csproj", "{0795D542-4BF1-48DF-9EA5-B0439BD18FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{A14E33D4-C0E8-4A44-BC97-EA40DB480F4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{A14E33D4-C0E8-4A44-BC97-EA40DB480F4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1F7FF02A-DE8F-4175-B381-FF95DCA83036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1F7FF02A-DE8F-4175-B381-FF95DCA83036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{33FCE7A3-BDB5-4E1A-A76A-71A75B21E98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodAPI", "FastFoodAPI\FastFoodAPI.csproj", "{4813563E-2A94-411D-A766-5EB52C0ED2A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFoodAPI", "FastFoodAPI\FastFoodAPI.csproj", "{4813563E-2A94-411D-A766-5EB52C0ED2A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{4E4B03BA-457C-4F87-8615-3F1856ED0662}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{1F7FF02A-DE8F-4175-B381-FF95DCA83036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F7FF02A-DE8F-4175-B381-FF95DCA83036}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F7FF02A-DE8F-4175-B381-FF95DCA83036}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33FCE7A3-BDB5-4E1A-A76A-71A75B21E98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33FCE7A3-BDB5-4E1A-A76A-71A75B21E98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33FCE7A3-BDB5-4E1A-A76A-71A75B21E98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33FCE7A3-BDB5-4E1A-A76A-71A75B21E98C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4813563E-2A94-411D-A766-5EB52C0ED2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4813563E-2A94-411D-A766-5EB52C0ED2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4813563E-2A94-411D-A766-5EB52C0ED2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4813563E-2A94-411D-A766-5EB52C0ED2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4B03BA-457C-4F87-8615-3F1856ED0662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4B03BA-457C-4F87-8615-3F1856ED0662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4B03BA-457C-4F87-8615-3F1856ED0662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4B03BA-457C-4F87-8615-3F1856ED0662}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
