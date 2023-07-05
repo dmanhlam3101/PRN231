@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BFs4I6R558BN7DI3O0npgc+O2f3C/ogK2hAetF3Ievg=",
+  "Hash": "CMP5JNDZFdsf3BM3g9S6VWzQz3aIW+Y7pglGf1ryS+A=",
   "Source": "FastFoodClient",
   "BasePath": "_content/FastFoodClient",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FastFoodClient\\wwwroot",
       "Source": "FastFoodClient",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FastFoodClient.styles.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FastFoodClient.styles.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "FastFoodClient.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FastFoodClient.styles.css"
+      "OriginalItemSpec": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FastFoodClient.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FastFoodClient.bundle.scp.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FastFoodClient.bundle.scp.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "FastFoodClient.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FastFoodClient.bundle.scp.css"
+      "OriginalItemSpec": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FastFoodClient.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\animate.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\animate.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/animate.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\bootstrap.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\bootstrap.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\flaticon.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\flaticon.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/flaticon.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\flaticon.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\font-awesome.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\font-awesome.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/font-awesome.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\owl.theme.default.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\owl.theme.default.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\responsive.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\responsive.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/responsive.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\responsive.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\site.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\site.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\style.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\style.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\style.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\style.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/style.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\style.scss",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\style.scss",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/style.scss",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.scss"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\styleblog.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\styleblog.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/styleblog.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styleblog.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\styles.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\styles.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\css\\styles-1.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\css\\styles-1.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "css/styles-1.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles-1.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\favicon.ico",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\favicon.ico",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\565b3881692c5f5c4402fa8ebc0e4675_wendys-Salads.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\565b3881692c5f5c4402fa8ebc0e4675_wendys-Salads.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/565b3881692c5f5c4402fa8ebc0e4675_wendys-Salads.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\565b3881692c5f5c4402fa8ebc0e4675_wendys-Salads.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\about-img.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\about-img.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/about-img.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about-img.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\bg_1.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\bg_1.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/bg_1.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\bg_2.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\bg_2.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/bg_2.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\bg_5.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\bg_5.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/bg_5.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg_5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\blog_04_2-1170x725.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\blog_04_2-1170x725.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/blog_04_2-1170x725.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog_04_2-1170x725.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f1.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f1.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f1.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f1.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f2.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f2.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f2.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f2.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f3.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f3.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f3.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f3.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f4.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f4.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f4.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f4.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f5.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f5.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f5.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f5.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f6.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f6.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f6.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f6.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f7.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f7.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f7.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f7.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f8.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f8.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f8.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f8.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\f9.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\f9.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/f9.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f9.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\Fast-Food-and-Junk-Food-4-1.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\Fast-Food-and-Junk-Food-4-1.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/Fast-Food-and-Junk-Food-4-1.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fast-Food-and-Junk-Food-4-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\favicon.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\favicon.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/favicon.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\head.png",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\head.png",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/head.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\head.png"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\headerlogin.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\headerlogin.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/headerlogin.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\headerlogin.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\hero-bg.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\hero-bg.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/hero-bg.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\o1.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\o1.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/o1.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\o1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\images\\o2.jpg",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\images\\o2.jpg",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "images/o2.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\o2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\bootstrap.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\bootstrap.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\custom.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\custom.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\jquery.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\jquery.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\jquery.stellar.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\jquery.stellar.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/jquery.stellar.min.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.stellar.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\jquery.waypoints.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\jquery.waypoints.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/jquery.waypoints.min.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\jquery-3.4.1.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/jquery-3.4.1.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/jquery-migrate-3.0.1.min.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-migrate-3.0.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\main.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\main.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\owl.carousel.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\owl.carousel.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\profile.jsp",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\profile.jsp",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/profile.jsp",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\js\\profile.jsp"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\scripts.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\scripts.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\scripts-1.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\scripts-1.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/scripts-1.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scripts-1.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\scrollax.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\scrollax.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/scrollax.min.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scrollax.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\js\\site.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\js\\site.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FastFoodClient",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodClient\\wwwroot\\",
+      "ContentRoot": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodClient\\wwwroot\\",
       "BasePath": "_content/FastFoodClient",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
