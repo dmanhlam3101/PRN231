@@ -22,12 +22,13 @@ builder.Services.AddDbContext<SWP_ProjectContext>(opt =>
 var mapperConfig = new MapperConfiguration(mc =>
 {
     mc.AddProfile(new CategoryMapper());
-
+    mc.AddProfile(new FoodMapper());
 });
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IFoodRepository, FoodRepository>();
 
 var app = builder.Build();
 
