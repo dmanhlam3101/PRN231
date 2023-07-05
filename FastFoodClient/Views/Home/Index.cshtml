@@ -1,0 +1,304 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="hero_area ">
+        <div class="bg-box ">
+            <img src="images/bg_2.jpg" alt="">
+        </div>
+        <!-- header section strats -->
+
+        <div>
+            <header class="header_section " style="margin-top: -1.5rem;margin-bottom: -1.5rem">
+                <div class="container ">
+                    <nav class="navbar navbar-expand-lg custom_nav-container ">
+                        <a class="navbar-brand" href="home" style="text-decoration: none ">
+                            <span style="font-size: 45px">
+                                FastFood
+                            </span>
+                        </a>
+
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; padding-left: 5%">
+                                <li class="nav-item">
+                                    <a class="nav-link active" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Menu" asp-action="Index">Menu</a>
+                                </li>
+                                <c:if test="${sessionScope.acc.isAdmin == 1}">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="admin">Manage Account</a>
+                                    </li>
+                                </c:if>
+
+                                <c:if test="${sessionScope.acc.isShipper == 1}">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="homeshipper">List Order Ship</a>
+                                    </li>
+                                </c:if>
+
+
+                                <c:if test="${sessionScope.acc.isSeller == 1}">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="SellerFood">Seller</a>
+                                    </li>
+                                </c:if>
+
+                            </ul>
+                            <div class="d-flex">
+                                <a class="btn btn-light " style="background-color: white" href="carts">
+                                    <i class="bi-cart-fill me-1"></i>
+                                    Cart
+
+
+                                    <span id="cart_number" class="badge bg-dark text-white ms-1 rounded-pill">${sessionScope.carts.size()}</span>
+
+
+                                </a>
+                            </div>
+                            <c:if test="${sessionScope.acc == null}">
+                                <form class="d-flex" style="margin-left: 2%">
+                                    <button class="btn btn-outline-dark btn-secondary">
+                                        <a href="login.jsp" style="text-decoration: none; color: white">Login</a>
+                                    </button>
+                                </form>
+                            </c:if>
+                            <c:if test="${sessionScope.acc != null}">
+                                <li class="nav-item dropdown" style="margin-top: -3%">
+                                    <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" style="color: white; pointer-events:">
+                                        <span style="color:  white">${sessionScope.acc.displayName}</span>  <i class="bi bi-person-circle" style="font-size: 150%;margin-left: 5% ; color: white"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                        <li><a class="dropdown-item" href="profile?id=${sessionScope.acc.id}">Profile</a></li>
+                                        <!--                                     <li><a class="dropdown-item" href="viewBill?idCustomer=${sessionScope.acc.id}">View Bill</a></li>-->
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="logout">Logout</a></li>
+
+                                    </ul>
+                                </li>
+                            </c:if>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+
+        <!-- end header section -->
+        <!-- slider section -->
+
+        <section class="slider_section ">
+            <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-7 col-lg-6 ">
+                                    <div class="detail-box" style="margin-bottom: 35px">
+                                        <h1 style="color: white;font-size: 80px">
+                                            Fast Food Restaurant
+                                        </h1>
+                                        <p style="width: 100% ;font-size: 20px">
+                                            Present in more than 118 countries with a chain of 35,000
+                                            restaurants on all continents, every day, Global FastFood
+                                            serves more than 70 million consumers, not only ensuring to bring them delicious, safe and hygienic meals.
+                                            
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-7 col-lg-6 ">
+                                    <div class="detail-box" style="margin-bottom: 35px">
+                                        <h1 style="color: white;font-size: 80px">
+                                            Fast Food Restaurant
+                                        </h1>
+                                        <p style="width: 100%;font-size: 20px" ">
+                                            Grasping the needs of Vietnamese consumers today, we aim to serve fast but hygienic, nutritious meals with professional service.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-7 col-lg-6 ">
+                                    <div class="detail-box" style="margin-bottom: 35px">
+                                        <h1 style="color: white;font-size: 80px">
+                                            Fast Food Restaurant
+                                        </h1>
+                                        <p style="width: 100%;font-size: 20px" ">
+                                            FastFood Vietnam is committed to applying the standards of FastFood globally, which are: Quality, Service, Cleanliness & Values.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <ol class="carousel-indicators">
+                        <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#customCarousel1" data-slide-to="1"></li>
+                        <li data-target="#customCarousel1" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+
+        </section>
+        <!-- end slider section -->
+    </div>
+    <!-- blog section -->
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <span class="subheading">Blog</span>
+
+                    <strong style="font-size: 240%">Recent Blog</strong>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ftco-animate">
+                    <div class="blog-entry">
+                        <a class="block-20" style="background-image: url('images/Fast-Food-and-Junk-Food-4-1.jpg');">
+                        </a>
+                        <div class="text px-4 pt-3 pb-4">
+                            <div class="meta">
+                                <div><a href="#">June 3, 2022</a></div>
+                                <div><a href="#">Admin</a></div>
+                            </div>
+                            <h3 class="heading"><a target="_blank" href="https://foodtolive.com/healthy-blog/fast-food-junk-food-difference/">Fast Food and Junk Food: Is There Any Difference</a></h3>
+                            <!--                            <p class="clearfix">
+                                                            <a target="_blank"  href="https://foodtolive.com/healthy-blog/fast-food-junk-food-difference/" class="float-left read btn btn-primary">Read more</a>
+                                                                                        <a href="#" class="float-right meta-chat"><span class="fa fa-comment"></span> 3</a>
+                                                        </p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="blog-entry">
+                        <a class="block-20" style="background-image: url('images/565b3881692c5f5c4402fa8ebc0e4675_wendys-Salads.jpg');">
+                        </a>
+                        <div class="text px-4 pt-3 pb-4">
+                            <div class="meta">
+                                <div><a href="#">June 3, 2022</a></div>
+                                <div><a href="#">Admin</a></div>
+                            </div>
+                            <h3 class="heading"><a target="_blank" href="https://www.hungryforever.com/recreate-wendys-salads-at-home/">Recreate Wendy’s Salads at Home</a></h3>
+                            <br>
+                            <!--                            <p class="clearfix">
+                                                            <a target="_blank"  href="https://www.hungryforever.com/recreate-wendys-salads-at-home/" class="float-left read btn btn-primary">Read more</a>
+                                                                                        <a href="#" class="float-right meta-chat"><span class="fa fa-comment"></span> 3</a>
+                                                        </p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="blog-entry">
+                        <a class="block-20" style="background-image: url('images/blog_04_2-1170x725.jpg');">
+                        </a>
+                        <div class="text px-4 pt-3 pb-4">
+                            <div class="meta">
+                                <div><a href="#">June 3, 2022</a></div>
+                                <div><a href="#">Admin</a></div>
+                            </div>
+                            <h3 class="heading"><a target="_blank" href="https://hotdogonline.com/2019/09/11/your-perfect-burger-2/">Choose Your Perfect Burger</a></h3>
+                            <br>
+                            <!--                            <p class="clearfix">
+                                                            <a target="_blank"  href="https://hotdogonline.com/2019/09/11/your-perfect-burger-2/" class="float-left read btn btn-primary">Read more</a>
+                                                            <a href="#" class="float-right meta-chat"><span class="fa fa-comment"></span> 3</a>
+                                                        </p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog section -->
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <div class="footer_contact">
+                        <h4 style="color: white">
+                            Contact Us
+                        </h4>
+                        <div class="contact_link_box">
+                            @*   <a style="text-decoration: none" target="_blank" href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+H%E1%BB%8Dc+FPT/@21.01325,105.5248756,17z/data=!3m1!4b1!4m5!3m4!1s0x31345b465a4e65fb:0xaae6040cfabe8fe!8m2!3d21.01325!4d105.5270643?hl=vi-VN">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span >
+                            DH FPT Ha Noi
+                            </span>
+                            </a>*@
+                            <a>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>
+                                    Call +84 1234567890
+                                </span>
+                            </a>
+                            <a>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                                    fastfood@gmail.com
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <div class="footer_detail">
+                        <a class="footer-logo">
+                            FastFood
+                        </a>
+
+                        <p>Some people call it a sizzle. We think of it as an anthem.</p>
+                        <p style="text-align: center">- Ruth’s Chris Steakhouse -</p>
+                        <div class="footer_social">
+                            <a href="">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h4 style="color: white">
+                        Opening Hours
+                    </h4>
+                    <p>
+                        Everyday
+                    </p>
+                    <p>
+                        10.00 Am -10.00 Pm
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer section -->
+</div>
