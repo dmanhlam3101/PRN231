@@ -5,61 +5,60 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FastFoodClient
 build_property.RootNamespace = FastFoodClient
-build_property.ProjectDir = C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\
+build_property.ProjectDir = D:\FULearning\Summer2023\PRN231\PRN231_FastFood\FastFoodClient\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient
+build_property.MSBuildProjectDirectory = D:\FULearning\Summer2023\PRN231\PRN231_FastFood\FastFoodClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Food/Details.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Food/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Food/Index.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Food/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Home/Index.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Home/Privacy.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Login/Index.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Login/Register.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Menu/Index.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Shared/Error.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/_ViewImports.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/_ViewStart.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Manh Lam/Desktop/FastFood/FastFoodClient/Views/Shared/_Layout.cshtml]
+[D:/FULearning/Summer2023/PRN231/PRN231_FastFood/FastFoodClient/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tf7vniszx2
