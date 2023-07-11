@@ -5,13 +5,13 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodClient", "FastFoodClient\FastFoodClient.csproj", "{0795D542-4BF1-48DF-9EA5-B0439BD18FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{A14E33D4-C0E8-4A44-BC97-EA40DB480F4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{A14E33D4-C0E8-4A44-BC97-EA40DB480F4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1F7FF02A-DE8F-4175-B381-FF95DCA83036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1F7FF02A-DE8F-4175-B381-FF95DCA83036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{33FCE7A3-BDB5-4E1A-A76A-71A75B21E98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{33FCE7A3-BDB5-4E1A-A76A-71A75B21E98C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFoodAPI", "FastFoodAPI\FastFoodAPI.csproj", "{4813563E-2A94-411D-A766-5EB52C0ED2A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodAPI", "FastFoodAPI\FastFoodAPI.csproj", "{4813563E-2A94-411D-A766-5EB52C0ED2A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodAPI\\FastFoodAPI.csproj": {}
+    "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodAPI\\FastFoodAPI.csproj": {}
   },
   "projects": {
-    "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\VanHung\\.nuget\\packages\\",
-        "outputPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\obj\\",
+        "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Manh Lam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\VanHung\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Manh Lam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,25 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Manh Lam\\Desktop\\FastFood\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\VanHung\\.nuget\\packages\\",
-        "outputPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Manh Lam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\VanHung\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Manh Lam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,8 +115,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -154,25 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodAPI\\FastFoodAPI.csproj": {
+    "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodAPI\\FastFoodAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodAPI\\FastFoodAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodAPI\\FastFoodAPI.csproj",
         "projectName": "FastFoodAPI",
-        "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodAPI\\FastFoodAPI.csproj",
-        "packagesPath": "C:\\Users\\VanHung\\.nuget\\packages\\",
-        "outputPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\FastFoodAPI\\obj\\",
+        "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodAPI\\FastFoodAPI.csproj",
+        "packagesPath": "C:\\Users\\Manh Lam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\FastFoodAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\VanHung\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Manh Lam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,8 +174,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\Repository\\Repository.csproj"
+              "C:\\Users\\Manh Lam\\Desktop\\FastFood\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\Repository\\Repository.csproj"
               }
             }
           }
@@ -230,25 +218,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\Repository\\Repository.csproj": {
+    "C:\\Users\\Manh Lam\\Desktop\\FastFood\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\VanHung\\.nuget\\packages\\",
-        "outputPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Manh Lam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\VanHung\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Manh Lam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,11 +246,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\BusinessObject\\BusinessObject.csproj"
+              "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\PRN231_FastFood\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Manh Lam\\Desktop\\FastFood\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -296,7 +280,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

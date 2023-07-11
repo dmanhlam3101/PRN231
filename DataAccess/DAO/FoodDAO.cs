@@ -35,7 +35,15 @@ namespace DataAccess.DAO
             {
                 using (var context = new SWP_ProjectContext())
                 {
-                    listFoods = await context.Foods.Where(x => x.CategoryId == catId).Include(x => x.Category).ToListAsync();
+                    if(catId == 0)
+                    {
+                        listFoods = await context.Foods.ToListAsync();
+                    }
+                    else
+                    {
+                        listFoods = await context.Foods.Where(x => x.CategoryId == catId).Include(x => x.Category).ToListAsync();
+                    }
+                   
                 }
             }
             catch (Exception ex)

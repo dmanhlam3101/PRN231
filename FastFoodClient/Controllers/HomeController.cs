@@ -35,7 +35,8 @@ namespace FastFoodClient.Controllers
             HttpResponseMessage response = await client.GetAsync(FoodApiUrl);
             string strData = await response.Content.ReadAsStringAsync();
             List<Food>? listFoods = JsonConvert.DeserializeObject<List<Food>>(strData);
-            ViewBag.listFoods = listFoods.OrderByDescending(x => x.FoodId).Take(12).ToList();
+            ViewBag.listFoods = listFoods.OrderByDescending(x => x.FoodId).Take(8).ToList();
+            ViewBag.newFoods = listFoods.OrderByDescending(x=> x.DateCreated).Take(8).ToList();
             return View();
         }
 
