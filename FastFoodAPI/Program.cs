@@ -24,12 +24,14 @@ var mapperConfig = new MapperConfiguration(mc =>
 {
     mc.AddProfile(new CategoryMapper());
     mc.AddProfile(new FoodMapper());
+    mc.AddProfile(new AccountMapper());
 });
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IFoodRepository, FoodRepository>();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 
 var app = builder.Build();
 
