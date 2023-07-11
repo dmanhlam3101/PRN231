@@ -205,3 +205,11 @@ D:\FULearning\Summer2023\PRN231\Project\PRN231_FastFood\FastFoodClient\obj\Debug
 D:\FULearning\Summer2023\PRN231\Project\PRN231_FastFood\FastFoodClient\obj\Debug\net6.0\FastFoodClient.pdb
 D:\FULearning\Summer2023\PRN231\Project\PRN231_FastFood\FastFoodClient\obj\Debug\net6.0\FastFoodClient.genruntimeconfig.cache
 D:\FULearning\Summer2023\PRN231\Project\PRN231_FastFood\FastFoodClient\obj\Debug\net6.0\ref\FastFoodClient.dll
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\Views\_ViewStart.cshtml
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\animate.css
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\bootstrap.css
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\flaticon.css
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\site.css
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\styles.css
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\styles-1.css
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\images\hero-bg.jpg

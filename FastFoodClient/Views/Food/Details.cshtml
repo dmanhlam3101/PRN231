@@ -1,0 +1,123 @@
+﻿@using BusinessObject.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["sub"] = "sub_page";
+}
+
+<div>
+        <!-- Navigation-->
+    <div class="hero_area">
+        <div class="bg-box">
+            <img src="~/images/hero-bg.jpg" alt="">
+        </div>
+    <!-- header section strats -->
+    <div>
+        <header class="header_section " style="margin-top: -1.5rem;margin-bottom: -1.5rem">
+            <div class="container ">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="home" style="text-decoration: none ">
+                        <span style="font-size: 45px">
+                            FastFood
+                        </span>
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; padding-left: 5%">
+                            <li class="nav-item">
+                                <a class="nav-link active" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Menu" asp-action="Index">Menu</a>
+                            </li>
+                            <c:if test="${sessionScope.acc.isAdmin == 1}">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin">Manage Account</a>
+                                </li>
+                            </c:if>
+
+                            <c:if test="${sessionScope.acc.isShipper == 1}">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="homeshipper">List Order Ship</a>
+                                </li>
+                            </c:if>
+
+
+                            <c:if test="${sessionScope.acc.isSeller == 1}">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="SellerFood">Seller</a>
+                                </li>
+                            </c:if>
+
+                        </ul>
+                        <div class="d-flex">
+                            <a class="btn btn-light " style="background-color: white" href="carts">
+                                <i class="bi-cart-fill me-1"></i>
+                                Cart
+
+
+                                <span id="cart_number" class="badge bg-dark text-white ms-1 rounded-pill">${sessionScope.carts.size()}</span>
+
+
+                            </a>
+                        </div>
+                        <c:if test="${sessionScope.acc == null}">
+                            <form class="d-flex" style="margin-left: 2%">
+                                <button class="btn btn-outline-dark btn-secondary">
+                                    <a href="login.jsp" style="text-decoration: none; color: white">Login</a>
+                                </button>
+                            </form>
+                        </c:if>
+                        <c:if test="${sessionScope.acc != null}">
+                            <li class="nav-item dropdown" style="margin-top: -3%">
+                                <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" style="color: white; pointer-events:">
+                                    <span style="color:  white">${sessionScope.acc.displayName}</span>  <i class="bi bi-person-circle" style="font-size: 150%;margin-left: 5% ; color: white"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="profile?id=${sessionScope.acc.id}">Profile</a></li>
+                                    <!--                                     <li><a class="dropdown-item" href="viewBill?idCustomer=${sessionScope.acc.id}">View Bill</a></li>-->
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="logout">Logout</a></li>
+
+                                </ul>
+                            </li>
+                        </c:if>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- end header section -->
+    </div>
+    <!-- Product section-->
+    <section class="py-5" style="min-height: 700px">
+        <div class="container px-4 px-lg-5 my-5">
+
+            <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 " src="@ViewBag.food.Image" alt="..."></div>
+                <div class="col-md-6">
+                <h3 class="display-5 fw-bolder">@ViewBag.food.FoodName</h3>
+                    <div class="fs-5 mb-5">
+                    <span>@ViewBag.food.UnitPrice</span>
+                    </div>
+                <p class="lead">@ViewBag.food.Description</p>
+                    <div class="d-flex">
+
+                        <a href="add-to-cart?foodid=${food.foodid}" class="btn btn-success  " style="color: white">
+                            <i class="bi-cart-fill "></i>
+                            Add to cart
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+
+

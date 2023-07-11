@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<section class="text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="
+                 background-image: url('images/head.png');
+                 height: 250px;
+
+                 "></div>
+    <!-- Background image -->
+
+    <div class="card  shadow-5-strong " style="
+                 margin-top: -170px;
+                 margin-left: 30%;
+                 margin-bottom: 10px;
+                 background: hsla(0, 0%, 100%, 0.8);
+                 backdrop-filter: blur(30px);
+                 width: 40%;
+                 ">
+        <div class="card-body py-5 px-md-5">
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-5" style="font-size:50px">Sign in</h2>
+                    <form action="login" method="post">
+                        <!-- msg is wrong username and pass -->
+
+                   @*     <p class="text-danger">${msg}</p>
+                        <p class="text-primary">${alert}</p>*@
+
+                        <!-- Username input -->
+                        <div class="form-outline mb-4">
+                            <input pattern="[a-z0-9]+$" type="text" class="form-control" placeholder="Username" name="username" required />
+
+                        </div>
+
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <input pattern="[a-z0-9]+$" type="password" class="form-control " placeholder="Password" name="password" required />
+
+                        </div>
+
+                        <!--                                 Checkbox
+                                                        <div class="form-check d-flex justify-content-center mb-4">
+                                                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                                                            <label class="form-check-label" for="form2Example33">
+                                                                Remember me
+                                                            </label>
+                                                        </div>-->
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">
+                            Sign in
+                        </button>
+
+                        <!-- Register buttons -->
+                        <div class="text-center">
+                            <p>Don't have an account? <a asp-controller="Login" asp-action="Register" class="link-info">Register here</a></p>
+
+                        </div>
+
+                        <div class="text-center">
+                            <br>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="bi bi-facebook"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="bi bi-google"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="bi bi-twitter"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="bi bi-github"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

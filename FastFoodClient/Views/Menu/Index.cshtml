@@ -1,4 +1,5 @@
-﻿@*
+﻿@using BusinessObject.Models;
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
@@ -7,7 +8,7 @@
 <div class="text-center">
     <div class="hero_area">
         <div class="bg-box">
-            <img src="images/hero-bg.jpg" alt="">
+            <img src="~/images/hero-bg.jpg" alt="">
         </div>
         <!-- header section strats -->
         <div>
@@ -62,7 +63,7 @@
                             <c:if test="${sessionScope.acc == null}">
                                 <form class="d-flex" style="margin-left: 2%">
                                     <button class="btn btn-outline-dark btn-secondary">
-                                        <a href="login.jsp" style="text-decoration: none; color: white">Login</a>
+                                        <a asp-controller="Login" asp-action="Index" style="text-decoration: none; color: white">Login</a>
                                     </button>
                                 </form>
                             </c:if>
@@ -87,5 +88,177 @@
         </div>
         <!-- end header section -->
     </div>
+    <!-- food section -->
 
+    <section class="food_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2>
+                    Our Menu
+                </h2>
+            </div>
+            <style>
+                .filters_menu .Cate:link {
+                    text-decoration: none;
+                }
+
+                .filters_menu .Cate:visited {
+                    color: black;
+                }
+
+                .filters_menu .Cate:hover {
+                    padding: 0;
+                    list-style-type: none;
+                    margin: 45px 0 20px 0;
+                    padding: 7px 25px;
+                    cursor: pointer;
+                    border-radius: 25px;
+                    background-color: black;
+                    color: white;
+                }
+
+                .filters_menu .Cate:active {
+                    padding: 0;
+                    list-style-type: none;
+                    margin: 45px 0 20px 0;
+                    padding: 7px 25px;
+                    cursor: pointer;
+                    border-radius: 25px;
+                    background-color: black;
+                    color: white;
+                }
+
+            </style>
+ 
+            <ul class="filters_menu" style="color: red">
+                @{
+                    int id = 1; // Replace 1 with the actual ID value you want to compare
+                    string activeClass = (id == 1) ? "active" : "";
+                }
+                <li data-filter="*"><a class="Cate" asp-controller="Menu" asp-action="Index" asp-route-id="0">All</a></li>
+                <li data-filter="*"><a class="Cate @activeClass" asp-controller="Menu" asp-action="Index" asp-route-id="1">Pizza</a></li>
+                <li data-filter="*"><a class="Cate" asp-controller="Menu" asp-action="Index" asp-route-id="2">Breakfast</a></li>
+                <li data-filter="*"><a class="Cate" asp-controller="Menu" asp-action="Index" asp-route-id="3">Burgers</a></li>
+                <li data-filter="*"><a class="Cate"  asp-controller="Menu" asp-action="Index" asp-route-id="4">Chicken & Sandwiches</a></li>
+                <li data-filter="*"><a class="Cate" asp-controller="Menu" asp-action="Index" asp-route-id="5">Desserts & shakes</a></li>
+                <li data-filter="*"><a class="Cate" asp-controller="Menu" asp-action="Index" asp-route-id="6">Beverages</a></li>
+            </ul>
+
+            <div class="filters-content ">
+                <div class="row grid">
+                    @foreach (Food item in @ViewBag.listFoods)
+                    {
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+
+                                <div>
+                                    <div class="img-box">
+                                        <a asp-controller="Food" asp-action="Details" asp-route-id="@item.FoodId">
+                                            <img style="background: #f1f2f3" src="@Html.DisplayFor(model => item.Image)" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5 style="color: white">
+                                            @Html.DisplayFor(model => item.FoodName)
+                                        </h5>
+                                        <div class="options">
+                                            <h6 style="font-size: 20px">
+                                                $@Html.DisplayFor(model => item.UnitPrice)
+                                            </h6>
+                                            <!-- add to cart o day -->
+                                            <a href="add-to-cart?foodid=${f.foodid}" style="background-color: #ffdf9a">
+                                                <i style="color: black " class="bi bi-cart2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   }
+                </div>
+            </div>
+        </div>
+        <div class="btn-box">
+            <c:forEach begin="1" end="${endP}" var="b">
+                <a class="page-item btn btn-outline-dark ${b==page?" active":""}" class="page-link" href="menu?index=${b}" style="text-decoration: none">${b}</a>
+            </c:forEach>
+        </div>
+
+    </section>
+
+    <!-- end food section -->
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <div class="footer_contact">
+                        <h4 style="color: white">
+                            Contact Us
+                        </h4>
+                        <div class="contact_link_box">
+                            @*   <a style="text-decoration: none" target="_blank" href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+H%E1%BB%8Dc+FPT/@21.01325,105.5248756,17z/data=!3m1!4b1!4m5!3m4!1s0x31345b465a4e65fb:0xaae6040cfabe8fe!8m2!3d21.01325!4d105.5270643?hl=vi-VN">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span >
+                            DH FPT Ha Noi
+                            </span>
+                            </a>*@
+                            <a>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>
+                                    Call +84 1234567890
+                                </span>
+                            </a>
+                            <a>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                                    fastfood@gmail.com
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <div class="footer_detail">
+                        <a class="footer-logo">
+                            FastFood
+                        </a>
+
+                        <p>Some people call it a sizzle. We think of it as an anthem.</p>
+                        <p style="text-align: center">- Ruth’s Chris Steakhouse -</p>
+                        <div class="footer_social">
+                            <a href="">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h4 style="color: white">
+                        Opening Hours
+                    </h4>
+                    <p>
+                        Everyday
+                    </p>
+                    <p>
+                        10.00 Am -10.00 Pm
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer section -->
 </div>
