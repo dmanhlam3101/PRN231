@@ -10,6 +10,7 @@ namespace Repository.IRepo
     public interface IAccountRepository
     {
         Task<List<AccountDTO>> GetAccounts();
+        Task<AccountDTO> Login(string username , string password);
         Task<AccountDTO> GetAccountById(int id);
         Task<AccountDTO> CreateAccount(AccountDTO accountDTO);
         Task<AccountDTO> UpdateAccount(AccountDTO accountDTO);

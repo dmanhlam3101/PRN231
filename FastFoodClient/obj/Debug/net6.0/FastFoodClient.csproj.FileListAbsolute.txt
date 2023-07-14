@@ -213,3 +213,7 @@ C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\s
 C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\styles.css
 C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\css\styles-1.css
 C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\wwwroot\images\hero-bg.jpg
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Manh Lam\Desktop\FastFood\FastFoodClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

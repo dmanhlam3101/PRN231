@@ -23,7 +23,10 @@ namespace Repository.Repo
         {
             return _mapper.Map<List<AccountDTO>>(await AccountDAO.GetAccounts());
         }
-
+        public async Task<AccountDTO> Login(string username, string password)
+        {
+            return _mapper.Map<AccountDTO>(await AccountDAO.Login(username,password));
+        }
         public async Task<AccountDTO> GetAccountById(int id)
         {
             return _mapper.Map<AccountDTO>(await AccountDAO.GetAccountById(id));

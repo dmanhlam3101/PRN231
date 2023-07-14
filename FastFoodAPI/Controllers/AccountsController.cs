@@ -1,4 +1,5 @@
 ﻿using BusinessObject.DTO;
+using eBookStore.Models.Login;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository.IRepo;
@@ -32,7 +33,23 @@ namespace FastFoodAPI.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
-
+        [HttpPost("Login")]
+        public async Task<ActionResult<AccountDTO>> Login(LoginRequest request)
+        {
+            try
+            {
+                return StatusCode(200, await repository.Login(request.username, request.password));
+            }
+            catch (ApplicationException ae)
+            {
+                return StatusCode(400, ae.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+    
         //GET: api/Accounts/id
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAccountById(int id)
@@ -97,7 +114,7 @@ namespace FastFoodAPI.Controllers
             {
                 var p = repository.GetAccountById(id);
                 if (p == null)
-                    return NotFound();
+                    return NotFound();  
                 await repository.DeleteAccount(id);
                 return StatusCode(204, "Delete successfully!");
             }

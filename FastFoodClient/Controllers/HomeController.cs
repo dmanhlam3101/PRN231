@@ -1,4 +1,5 @@
-﻿using BusinessObject.Models;
+﻿using BusinessObject.DTO;
+using BusinessObject.Models;
 using FastFoodClient.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using System;
 using System.Diagnostics;
 using System.Net.Http.Headers;
 using System.Text.Json;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace FastFoodClient.Controllers
 {
@@ -32,11 +34,18 @@ namespace FastFoodClient.Controllers
 
         public async Task<IActionResult> Index()
         {
+            var session = HttpContext.Session.GetString("loginUser");
+            if (session != null)
+            {
+                LoginDTO currentUser = JsonSerializer.Deserialize<LoginDTO>(session);
+                ViewData["role"] = currentUser.IsAdmin;
+                
+            }
             HttpResponseMessage response = await client.GetAsync(FoodApiUrl);
             string strData = await response.Content.ReadAsStringAsync();
             List<Food>? listFoods = JsonConvert.DeserializeObject<List<Food>>(strData);
             ViewBag.listFoods = listFoods.OrderByDescending(x => x.FoodId).Take(8).ToList();
-            ViewBag.newFoods = listFoods.OrderByDescending(x=> x.DateCreated).Take(8).ToList();
+            ViewBag.newFoods = listFoods.OrderByDescending(x => x.DateCreated).Take(8).ToList();
             return View();
         }
 

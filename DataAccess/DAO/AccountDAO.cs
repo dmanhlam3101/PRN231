@@ -26,7 +26,22 @@ namespace DataAccess.DAO
             }
             return listAccounts;
         }
-
+        public static async Task<Account> Login(string username, string password)
+        {
+            var listAccounts = new Account();
+            try
+            {
+                using (var context = new SWP_ProjectContext())
+                {
+                    listAccounts = await context.Accounts.Where(a => a.Username.Equals(username)&& a.Password.Equals(password)).FirstOrDefaultAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return listAccounts;
+        }
         public static async Task<Account> GetAccountById(int id)
         {
             Account account = new Account();
