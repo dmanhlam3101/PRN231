@@ -1,4 +1,6 @@
-﻿@using BusinessObject.Models;
+﻿@using BusinessObject.DTO;
+@using BusinessObject.Models;
+@using Newtonsoft.Json;
 @model IEnumerable<BusinessObject.Models.Food>
 @{
     ViewData["Title"] = "Home Page";
@@ -20,33 +22,51 @@
                                 FastFood
                             </span>
                         </a>
+                        @{
+                            var loginUser = Context.Session.GetString("loginUser");
+                            var username = "";
+                            bool isAdmin = false;
+                            bool isShipper = false;
+                            bool isSeller = false;
 
+                            if (!string.IsNullOrEmpty(loginUser))
+                            {
+                                var user = JsonConvert.DeserializeObject<AccountDTO>(loginUser);
+                                username = user.Username;
+                                isAdmin = (bool)user.IsAdmin;
+                                isShipper = (bool)user.IsShipper;
+                                isSeller = (bool)user.IsSeller;
+                            }
+                        }
                         <div class="collapse navbar-collapse" id="navbarScroll">
                             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; padding-left: 5%">
+
                                 <li class="nav-item">
                                     <a class="nav-link active" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" asp-controller="Menu" asp-action="Index" asp-route-id="0">Menu</a>
                                 </li>
-                                <c:if test="${sessionScope.acc.isAdmin == 1}">
+                                @if (isAdmin)
+                                {
                                     <li class="nav-item">
                                         <a class="nav-link" href="admin">Manage Account</a>
                                     </li>
-                                </c:if>
-
-                                <c:if test="${sessionScope.acc.isShipper == 1}">
+                                }
+                                @if (isShipper)
+                                {
                                     <li class="nav-item">
                                         <a class="nav-link" href="homeshipper">List Order Ship</a>
                                     </li>
-                                </c:if>
-
-
-                                <c:if test="${sessionScope.acc.isSeller == 1}">
+                                }
+                                @if (isSeller)
+                                {
                                     <li class="nav-item">
                                         <a class="nav-link" href="SellerFood">Seller</a>
                                     </li>
-                                </c:if>
+                                }
+
+
 
                             </ul>
                             <div class="d-flex">
@@ -60,27 +80,32 @@
 
                                 </a>
                             </div>
-                            <c:if test="${sessionScope.acc == null}">
+
+                            @if (loginUser == null)
+                            {
                                 <form class="d-flex" style="margin-left: 2%">
                                     <button class="btn btn-outline-dark btn-secondary">
                                         <a asp-controller="Login" asp-action="Index" style="text-decoration: none; color: white">Login</a>
                                     </button>
                                 </form>
-                            </c:if>
-                            <c:if test="${sessionScope.acc != null}">
+                            }
+                            else
+                            {
+
                                 <li class="nav-item dropdown" style="margin-top: -3%">
                                     <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" style="color: white; pointer-events:">
-                                        <span style="color:  white">${sessionScope.acc.displayName}</span>  <i class="bi bi-person-circle" style="font-size: 150%;margin-left: 5% ; color: white"></i>
+                                        <span style="color:  white">@username</span>  <i class="bi bi-person-circle" style="font-size: 150%;margin-left: 5% ; color: white"></i>
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                         <li><a class="dropdown-item" href="profile?id=${sessionScope.acc.id}">Profile</a></li>
                                         <!--                                     <li><a class="dropdown-item" href="viewBill?idCustomer=${sessionScope.acc.id}">View Bill</a></li>-->
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="logout">Logout</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Logout" asp-action="Index">Logout</a></li>
 
                                     </ul>
                                 </li>
-                            </c:if>
+                            }
+
                         </div>
                     </nav>
                 </div>
@@ -89,7 +114,6 @@
 
 
         <!-- end header section -->
-
         <!-- slider section -->
 
         <section class="slider_section ">
@@ -107,7 +131,7 @@
                                             Present in more than 118 countries with a chain of 35,000
                                             restaurants on all continents, every day, Global FastFood
                                             serves more than 70 million consumers, not only ensuring to bring them delicious, safe and hygienic meals.
-                                            
+
                                         </p>
 
                                     </div>
@@ -161,7 +185,7 @@
 
         </section>
         <!-- end slider section -->
-    </div> 
+    </div>
     <br>
 
     <section class="food_section layout_padding-bottom">
@@ -189,12 +213,12 @@
 
                                 <div>
                                     <div class="img-box">
-                                        <a asp-controller="Food" asp-action="Details" asp-route-id="@item.FoodId" >
+                                        <a asp-controller="Food" asp-action="Details" asp-route-id="@item.FoodId">
                                             <img style="background: #f1f2f3" src="@Html.DisplayFor(model => item.Image)" alt="">
                                         </a>
                                     </div>
                                     <div class="detail-box">
-                                        <h5 style="color: white" >
+                                        <h5 style="color: white">
                                             @Html.DisplayFor(model => item.FoodName)
                                         </h5>
                                         <p style="min-height: 80px">
@@ -214,7 +238,7 @@
                             </div>
                         </div>
                     }
-                  
+
                     <div class="btn-box">
                         <a href="menu" style="text-decoration: none">
                             View Menu
