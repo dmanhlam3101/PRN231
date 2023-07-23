@@ -8,24 +8,24 @@ namespace BusinessObject.Models
         public Order()
         {
             OrderDetails = new HashSet<OrderDetail>();
-            Shippings = new HashSet<Shipping>();
         }
 
         public int OrderId { get; set; }
-        public int? AccountId { get; set; }
-        public string? Name { get; set; }
-        public string? Phone { get; set; }
-        public string? Address { get; set; }
-        public double? TotalPrice { get; set; }
-        public int? SellerId { get; set; }
-        public int? ShipperId { get; set; }
-        public DateTime? CreatedDate { get; set; }
-        public bool? Status { get; set; }
+        public string? CustomerId { get; set; }
+        public int? EmployeeId { get; set; }
+        public DateTime? OrderDate { get; set; }
+        public DateTime? RequiredDate { get; set; }
+        public DateTime? ShippedDate { get; set; }
+        public decimal? Freight { get; set; }
+        public string? ShipName { get; set; }
+        public string? ShipAddress { get; set; }
+        public string? ShipCity { get; set; }
+        public string? ShipRegion { get; set; }
+        public string? ShipPostalCode { get; set; }
+        public string? ShipCountry { get; set; }
 
-        public virtual Account? Account { get; set; }
-        public virtual Seller? Seller { get; set; }
-        public virtual Shipper? Shipper { get; set; }
+        public virtual Customer? Customer { get; set; }
+        public virtual Employee? Employee { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
-        public virtual ICollection<Shipping> Shippings { get; set; }
     }
 }

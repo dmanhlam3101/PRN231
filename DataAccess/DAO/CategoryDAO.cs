@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.DAO
+namespace DataAccess
 {
     public class CategoryDAO
     {
@@ -15,7 +15,7 @@ namespace DataAccess.DAO
             var listCategories = new List<Category>();
             try
             {
-                using (var context = new SWP_ProjectContext())
+                using (var context = new SWP_Project_DataContext())
                 {
                     listCategories = await context.Categories.ToListAsync();
                 }
@@ -27,12 +27,29 @@ namespace DataAccess.DAO
             return listCategories;
         }
 
+        public static async Task<List<string>> GetCategoryGeneral()
+        {
+            var listCategoryGeneral = new List<string>();
+            try
+            {
+                using (var context = new SWP_Project_DataContext())
+                {
+                    listCategoryGeneral = await context.Categories.Select(x => x.CategoryGeneral).Distinct().ToListAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return listCategoryGeneral;
+        }
+
         public static async Task<Category> GetCategoryById(int id)
         {
             Category category = new Category();
             try
             {
-                using (var context = new SWP_ProjectContext())
+                using (var context = new SWP_Project_DataContext())
                 {
                     category = await context.Categories.SingleOrDefaultAsync(x => x.CategoryId == id);
                 }
@@ -48,7 +65,7 @@ namespace DataAccess.DAO
         {
             try
             {
-                using (var context = new SWP_ProjectContext())
+                using (var context = new SWP_Project_DataContext())
                 {
                     await context.Categories.AddAsync(category);
                     await context.SaveChangesAsync();
@@ -66,7 +83,7 @@ namespace DataAccess.DAO
         {
             try
             {
-                using (var context = new SWP_ProjectContext())
+                using (var context = new SWP_Project_DataContext())
                 {
                     context.Entry<Category>(category).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                     await context.SaveChangesAsync();
@@ -85,11 +102,11 @@ namespace DataAccess.DAO
             try
             {
                 Category category = new Category();
-                using (var context = new SWP_ProjectContext())
+                using (var context = new SWP_Project_DataContext())
                 {
                     category = await context.Categories.SingleOrDefaultAsync(x => x.CategoryId == id);
+                    category.IsActive = false;
                     context.Entry<Category>(category).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-                    context.Categories.Remove(category);
                     await context.SaveChangesAsync();
                 }
             }

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj": {}
+    "D:\\FULearning\\Summer2023\\PRN231\\Project\\Project_PRN231\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\FULearning\\Summer2023\\PRN231\\Project\\Project_PRN231\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\FULearning\\Summer2023\\PRN231\\Project\\Project_PRN231\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\Manh Lam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manh Lam\\Desktop\\FastFood\\BusinessObject\\obj\\",
+        "projectPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\Project_PRN231\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\VanHung\\.nuget\\packages\\",
+        "outputPath": "D:\\FULearning\\Summer2023\\PRN231\\Project\\Project_PRN231\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Manh Lam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VanHung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,21 +54,21 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[6.0.20, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[6.0.20, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[6.0.20, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
