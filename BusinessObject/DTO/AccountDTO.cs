@@ -8,17 +8,14 @@ namespace BusinessObject.DTO
 {
     public class AccountDTO
     {
-        public AccountDTO() { }
-        public int Id { get; set; }
-        public string? Username { get; set; }
+        public int? AccountId { get; set; }
+        public string? Email { get; set; }
         public string? Password { get; set; }
-        public string? Displayname { get; set; }
-        public string? Address { get; set; }
-        public string? Phone { get; set; }
-        public bool? IsAdmin { get; set; }
-        public bool? IsCustomer { get; set; }
-        public bool? IsShipper { get; set; }
-        public bool? IsSeller { get; set; }
-        public bool? Status { get; set; }
+        public string? CustomerId { get; set; }
+        public string? CustomerName { get; set; }
+        public int? EmployeeId { get; set; }
+        public string? EmployeeName { get; set; }
+        public int? Role { get; set; }
+        public bool? IsActive { get; set; }
     }
 }

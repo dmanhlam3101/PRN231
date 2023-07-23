@@ -5,19 +5,13 @@ namespace BusinessObject.Models
 {
     public partial class OrderDetail
     {
-        public OrderDetail()
-        {
-            Shippings = new HashSet<Shipping>();
-        }
+        public int OrderId { get; set; }
+        public int ProductId { get; set; }
+        public decimal UnitPrice { get; set; }
+        public short Quantity { get; set; }
+        public float Discount { get; set; }
 
-        public int Id { get; set; }
-        public int? OrderId { get; set; }
-        public string? NameFood { get; set; }
-        public string? ImageFood { get; set; }
-        public double? PriceFood { get; set; }
-        public int? Quantity { get; set; }
-
-        public virtual Order? Order { get; set; }
-        public virtual ICollection<Shipping> Shippings { get; set; }
+        public virtual Order Order { get; set; }
+        public virtual Product Product { get; set; }
     }
 }
